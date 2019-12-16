@@ -1,0 +1,134 @@
+#profile-wrapper {
+    p {
+        margin-bottom: 2rem;
+        font-size: 18px;
+    }
+
+    .author {
+        transform: translateY(-3rem);
+        margin-right: 1rem;
+
+        .card {
+            border-radius: unset;
+            border: unset;
+        }
+
+        .btn-groups {
+            text-align: right;
+        }
+    }
+
+    .description {
+        padding: 2rem;
+        font-size: 18px;
+    }
+
+    .title-border {
+        margin: 2rem 0 0.5rem 0;
+        height: 5px;
+        width: 100px;
+        background-color: $primary-color;
+
+    }
+
+    h3 {
+        padding: 0 0 1rem 0;
+        color: $black;
+    }
+
+    .recipe-images {
+        margin-top: 2rem;
+
+        .recipe-img {
+            width: 200px;
+            height: auto;
+        }
+    }
+
+    .preparing-method {
+        margin-top: 5rem;
+    }
+}
+
+.ingredients {
+    margin: 2rem;
+    padding: 4rem;
+    background-color: $gray;
+    border-bottom: 1rem solid $primary-color;
+
+    h3 {
+        font-weight: bold;
+        font-size: 32px;
+        color: $primary-color !important;
+    }
+
+    h4 {
+        font-weight: bold;
+    }
+
+    .title-border {
+        background-color: $white !important;
+    }
+
+    ul {
+        color: $white;
+
+        &:last-of-type {
+            margin-top: 3rem;
+        }
+    }
+
+    li {
+        font-size: 24px;
+        font-weight: bold;
+        border-bottom: 1px solid $white;
+    }
+
+    span {
+        padding-left: 2rem;
+        font-weight: normal;
+    }
+}
+
+.comments {
+    margin: 2rem;
+
+    .comment-header {
+        background-color: #E8E8E8;
+        height: 100px;
+
+        .user-image {
+            position: relative;
+
+            .profile-img {
+                position: absolute;
+                width: 75px;
+                height: 75px;
+                border-radius: 50%;
+                background-color: $white;
+                transform: translate(-30%, 15%);
+                top: 50%;
+                left: 50%;
+            }
+        }
+
+        .user {
+            line-height: 100px;
+        }
+
+        .date {
+            line-height: 100px;
+            text-align: right;
+        }
+    }
+
+    .comment-body {
+        background-color: #F4F4F4;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 768px) {
+    .profile-img {
+        display: none !important;
+    }
+}

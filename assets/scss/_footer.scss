@@ -1,0 +1,42 @@
+footer {
+    padding: 6rem 0;
+    background-color: #484848;
+    color: $white;
+    margin: 0 auto;
+    text-align: center;
+
+    .col-help, .col-corporate {
+        width: 230px;
+    }
+
+    .col-logo {
+        width: 600px;
+    }
+
+    p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    ul {
+        line-height: 3;
+    }
+
+    .header {
+        text-transform: uppercase;
+    }
+
+    .footer-logo {
+        width: 350px;
+        height: auto;
+    }
+
+    .social {
+        padding: 3rem 0;
+    }
+
+    i {
+        font-size: 48px;
+        margin-right: 3rem;
+    }
+}

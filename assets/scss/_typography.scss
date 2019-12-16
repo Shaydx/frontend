@@ -1,0 +1,75 @@
+body {
+    font-family: $font-family;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
+
+
+.text-muted {
+    a {
+        font-weight: bold;
+    }
+}
+
+.ingredients-header {
+    color: $primary-color;
+    margin-bottom: 0 !important;
+}
+p {
+    span {
+        position: unset !important;
+        color: $primary-color;
+        font-weight: bold;
+        background-color: unset !important;
+        color: $primary-color !important;
+        padding: unset !important;
+        border-top-left-radius: unset !important;
+        border-bottom-right-radius: unset !important;
+        width: unset !important;
+        height: unset !important;
+    }
+}
+
+
+ul {
+    padding-left: 0 !important;
+}
+
+ul li {
+    list-style: none;
+}
+
+h3 {
+    font-size: 24px;
+    color: $primary-color;
+    font-family: $font-family;
+    font-weight: 500;
+}
+
+.like {
+    position: relative;
+
+    span {
+        position: absolute;
+        background-color: $primary-color;
+        color: $white;
+        padding: 0.5rem 0.5rem;
+        border-top-left-radius: 1.25rem;
+        border-bottom-right-radius: 1.25rem;
+        width: 100px;
+        height: 40px;
+        text-align: center;
+    }
+
+    i {
+        padding-left: 0.5rem;
+    }
+}

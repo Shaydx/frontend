@@ -1,0 +1,354 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap");
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px; } }
+
+header {
+  height: 100px;
+  position: relative; }
+
+.logo {
+  background-image: url("../img/logo.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -25%);
+  height: 175px;
+  width: 175px;
+  border-radius: 50%;
+  z-index: 10000; }
+
+.navigation {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 6rem; }
+
+.searchPage {
+  margin-top: 3rem; }
+
+.jumbotron {
+  padding: 4rem 2rem;
+  margin-bottom: 0 !important;
+  background-color: #e9ecef;
+  border-radius: 0.3rem; }
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 1.25rem; }
+
+.card-img, .card-img-top {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem; }
+
+body {
+  font-family: "Montserrat", sans-serif; }
+
+a {
+  color: #B6323E;
+  text-decoration: none; }
+  a:hover {
+    color: #B6323E;
+    text-decoration: underline; }
+
+.text-muted a {
+  font-weight: bold; }
+
+.ingredients-header {
+  color: #B6323E;
+  margin-bottom: 0 !important; }
+
+p span {
+  position: unset !important;
+  color: #B6323E;
+  font-weight: bold;
+  background-color: unset !important;
+  color: #B6323E !important;
+  padding: unset !important;
+  border-top-left-radius: unset !important;
+  border-bottom-right-radius: unset !important;
+  width: unset !important;
+  height: unset !important; }
+
+ul {
+  padding-left: 0 !important; }
+
+ul li {
+  list-style: none; }
+
+h3 {
+  font-size: 24px;
+  color: #B6323E;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500; }
+
+.like {
+  position: relative; }
+  .like span {
+    position: absolute;
+    background-color: #B6323E;
+    color: #ffffff;
+    padding: 0.5rem 0.5rem;
+    border-top-left-radius: 1.25rem;
+    border-bottom-right-radius: 1.25rem;
+    width: 100px;
+    height: 40px;
+    text-align: center; }
+  .like i {
+    padding-left: 0.5rem; }
+
+.search-wrapper {
+  position: relative;
+  height: calc(100vh - 102px);
+  background-image: url(../img/bg.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1; }
+  .search-wrapper .searchForm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 1400px;
+    padding-left: 1rem;
+    padding-right: 1rem; }
+  .search-wrapper .text-muted-white {
+    color: #f1f1f1; }
+
+.form-control-costum {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #ffffff !important;
+  background-color: #000000;
+  opacity: .5;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .form-control-costum::placeholder {
+    color: #ffffff; }
+  .form-control-costum:focus {
+    background-color: #000000;
+    opacity: .5; }
+
+.form-control-xlg {
+  height: calc(1.5em + 1rem + 2px);
+  padding: 2rem 1rem;
+  font-size: 1.25rem;
+  line-height: 0rem;
+  border-radius: 0.3rem; }
+
+.form-control-search {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  color: #495057;
+  background-color: #ffffffab;
+  background-clip: padding-box;
+  border: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .form-control-search:focus {
+    outline-color: #B6323E;
+    -webkit-focus-ring-color: auto 1px; }
+
+.searchPage .form-control-search {
+  display: block;
+  width: 100%;
+  font-weight: 400;
+  color: #495057;
+  background-color: #ffffffab;
+  background-clip: padding-box;
+  border: none;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .searchPage .form-control-search:focus {
+    outline-color: #B6323E;
+    -webkit-focus-ring-color: auto 1px; }
+
+.color-white {
+  background-color: #ffffff !important; }
+
+.color-gray {
+  background-color: #E8E8E8 !important; }
+
+.btn-primary {
+  background-color: #B6323E;
+  color: #ffffff;
+  border-color: #B6323E;
+  transition: .3s ease; }
+  .btn-primary:hover {
+    background-color: #ce4d59;
+    border-color: #B6323E;
+    color: #ffffff;
+    transition: .3s ease; }
+  .btn-primary:active {
+    background-color: #ce4d59;
+    color: #ffffff;
+    transition: .3s ease; }
+
+.btn-outline-primary {
+  color: #B6323E;
+  border-color: #B6323E; }
+  .btn-outline-primary:hover {
+    color: #ffffff;
+    background-color: #B6323E;
+    border-color: #B6323E; }
+  .btn-outline-primary:active {
+    color: #ffffff;
+    background-color: #B6323E;
+    border-color: #B6323E; }
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+  color: #ffffff;
+  background-color: #B6323E;
+  border-color: #B6323E; }
+
+footer {
+  padding: 6rem 0;
+  background-color: #484848;
+  color: #ffffff;
+  margin: 0 auto;
+  text-align: center; }
+  footer .col-help, footer .col-corporate {
+    width: 230px; }
+  footer .col-logo {
+    width: 600px; }
+  footer p {
+    font-weight: bold;
+    font-size: 20px; }
+  footer ul {
+    line-height: 3; }
+  footer .header {
+    text-transform: uppercase; }
+  footer .footer-logo {
+    width: 350px;
+    height: auto; }
+  footer .social {
+    padding: 3rem 0; }
+  footer i {
+    font-size: 48px;
+    margin-right: 3rem; }
+
+.hero-banner {
+  position: relative;
+  height: 600px;
+  background-color: #B6323E;
+  background-image: url("../img/recipe.jpg");
+  background-position: 50% 50%;
+  background-size: cover; }
+  .hero-banner h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: #ffffff;
+    padding: 0 0 1rem 2rem;
+    max-width: 500px; }
+  .hero-banner .return {
+    font-size: 48px;
+    margin: 1rem 0 0 1rem; }
+
+#profile-wrapper p {
+  margin-bottom: 2rem;
+  font-size: 18px; }
+
+#profile-wrapper .author {
+  transform: translateY(-3rem);
+  margin-right: 1rem; }
+  #profile-wrapper .author .card {
+    border-radius: unset;
+    border: unset; }
+  #profile-wrapper .author .btn-groups {
+    text-align: right; }
+
+#profile-wrapper .description {
+  padding: 2rem;
+  font-size: 18px; }
+
+#profile-wrapper .title-border {
+  margin: 2rem 0 0.5rem 0;
+  height: 5px;
+  width: 100px;
+  background-color: #B6323E; }
+
+#profile-wrapper h3 {
+  padding: 0 0 1rem 0;
+  color: #000000; }
+
+#profile-wrapper .recipe-images {
+  margin-top: 2rem; }
+  #profile-wrapper .recipe-images .recipe-img {
+    width: 200px;
+    height: auto; }
+
+#profile-wrapper .preparing-method {
+  margin-top: 5rem; }
+
+.ingredients {
+  margin: 2rem;
+  padding: 4rem;
+  background-color: #ADADAD;
+  border-bottom: 1rem solid #B6323E; }
+  .ingredients h3 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #B6323E !important; }
+  .ingredients h4 {
+    font-weight: bold; }
+  .ingredients .title-border {
+    background-color: #ffffff !important; }
+  .ingredients ul {
+    color: #ffffff; }
+    .ingredients ul:last-of-type {
+      margin-top: 3rem; }
+  .ingredients li {
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #ffffff; }
+  .ingredients span {
+    padding-left: 2rem;
+    font-weight: normal; }
+
+.comments {
+  margin: 2rem; }
+  .comments .comment-header {
+    background-color: #E8E8E8;
+    height: 100px; }
+    .comments .comment-header .user-image {
+      position: relative; }
+      .comments .comment-header .user-image .profile-img {
+        position: absolute;
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        transform: translate(-30%, 15%);
+        top: 50%;
+        left: 50%; }
+    .comments .comment-header .user {
+      line-height: 100px; }
+    .comments .comment-header .date {
+      line-height: 100px;
+      text-align: right; }
+  .comments .comment-body {
+    background-color: #F4F4F4; }
+
+@media (min-width: 100px) and (max-width: 768px) {
+  .profile-img {
+    display: none !important; } }

@@ -1,0 +1,18 @@
+// Global Custom SCSS
+@import 'global';
+@import 'settings';
+
+// Custom SCSS
+@import 'typography';
+@import 'forms';
+@import 'sections';
+@import 'buttons';
+@import 'footer';
+@import 'herobanner';
+@import 'profile';
+
+
+// Imports
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";

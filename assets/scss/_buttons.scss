@@ -1,0 +1,44 @@
+// Buttons
+
+.btn-primary {
+    background-color: $primary-color;
+    color: $white;
+    border-color: $primary-color;
+    transition: .3s ease;
+
+    &:hover {
+        background-color: lighten($primary-color, 10%);
+        border-color: $primary-color;
+        color: $white;
+        transition: .3s ease;
+    }
+
+    &:active {
+        background-color: lighten($primary-color, 10%);
+        color: $white;
+        transition: .3s ease;
+    }
+}
+
+.btn-outline-primary {
+    color: $primary-color;
+    border-color: $primary-color;
+
+    &:hover {
+        color: $white;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+
+    &:active {
+        color: $white;
+        background-color: $primary-color;
+        border-color: $primary-color;
+    }
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active {
+    color: $white;
+    background-color: $primary-color;
+    border-color: $primary-color;
+}
